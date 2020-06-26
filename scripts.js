@@ -11,8 +11,8 @@ class ToDoClass {
         if (!this.tasks) {
             this.tasks = [
                 { task: 'Sample Text 01', isComplete: false },
-                { task: 'Sample Text 01', isComplete: true },
-                { task: 'Sample Text 01', isComplete: false },
+                { task: 'Sample Text 02', isComplete: true },
+                { task: 'Sample Text 03', isComplete: false },
             ];
         }
         this.loadTasks();
