@@ -10,9 +10,9 @@ class ToDoClass {
         this.tasks = JSON.parse(localStorage.getItem('TASKS'));
         if (!this.tasks) {
             this.tasks = [
-                { task: 'Go to Dentist', isComplete: false },
-                { task: 'Do Gardening', isComplete: true },
-                { task: 'Renew Library Account', isComplete: false },
+                { task: 'Sample Text 01', isComplete: false },
+                { task: 'Sample Text 01', isComplete: true },
+                { task: 'Sample Text 01', isComplete: false },
             ];
         }
         this.loadTasks();
